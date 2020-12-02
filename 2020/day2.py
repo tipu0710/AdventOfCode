@@ -1,4 +1,6 @@
-f = open("assets/day2.txt", "r")
+import os
+
+f = open(os.getcwd()+"/2020/assets/day2.txt", "r")
 text = f.read().split("\n")
 
 correctPass = 0

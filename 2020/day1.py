@@ -1,4 +1,6 @@
-f = open("assets/input.txt", "r")
+import os
+
+f = open(os.getcwd()+"/2020/assets/day1.txt", "r")
 text = f.read().split("\n")
 
 num = []
